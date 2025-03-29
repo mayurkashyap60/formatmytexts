@@ -5,10 +5,10 @@ import FMTBody from './components/FMTBody'
 function App() {
   return (
     <>
-    <div className='w-[75vw] mx-auto'>
-      <Navbar/>
-      <FMTBody/>
-    </div>
+      <div className='lg:w-[75vw] md:w-full sm:w-full mx-auto'>
+        <Navbar />
+        <FMTBody />
+      </div>
     </>
   )
 }
